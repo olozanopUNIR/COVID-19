@@ -1,0 +1,31 @@
+.columnLeft{
+    color:red;
+}
+.columnMiddle{
+    /*background-color: #4CAF50;*/
+}
+.columnRight{
+    /*background-color: #78261f;*/
+}
+.columnLeft, .columnMiddle, .columnRight{
+    float: left;
+    width: 33.33%;
+    background-color: #2d2e33;
+    color: snow;
+    padding: 1%;
+    text-align: center;
+    border: #ffffff;
+    border-width: thick;
+}
+
+div.columnHeadings{
+    font-size: 80px;
+    text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
